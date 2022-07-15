@@ -26,6 +26,7 @@ mov esp, kernel_stack + KERNEL_STACK_SIZE
 loader:
     mov eax, 0xCAFEBABE
     mov esp, kernel_stack + KERNEL_STACK_SIZE
+
     extern sum_of_three
 
     push dword 3

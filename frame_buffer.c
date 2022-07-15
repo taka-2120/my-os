@@ -25,8 +25,3 @@ int fb_write(char *buf, unsigned int len) {
   }
   return 0;
 }
-
-int sum_of_three(int arg1, int arg2, int arg3)
-{
-    return arg1 + arg2 + arg3;
-}

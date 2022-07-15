@@ -1,4 +1,5 @@
 ENTRY(loader)
+ENTRY(io)
 
 SECTIONS {
     . = 0x00100000;
